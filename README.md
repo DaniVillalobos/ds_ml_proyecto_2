@@ -1,11 +1,13 @@
 # Clasificacion Automatica de Tickets con NLP
 
 Integrantes
+
 Wilder Serdan (wserdan@gmail.com)
 Oscar Ramirez (oscar.ramirez.guachalla@gmail.com)
 Ruth Daniela Villalobos (ruthdanivillalobos@gmail.com)
 
 ## Table of Contents
+
 1. Setup e Importación de Librerias
 2. Data Loading
 3. Text preprocessing
@@ -17,6 +19,7 @@ Ruth Daniela Villalobos (ruthdanivillalobos@gmail.com)
 9. Model inference
 
 #Introduction
+
 El proyecto consta de un clasificador de quejas de clientes en función de los productos/servicios. 
 Segregando estos tickets en sus categorías relevantes y por lo tanto, ayudar en la resolución rápida del problema.
 
