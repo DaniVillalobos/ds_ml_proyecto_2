@@ -26,14 +26,17 @@ El proyecto consta de un clasificador de quejas de clientes en función de los p
 Segregando estos tickets en sus categorías relevantes y por lo tanto, ayudar en la resolución rápida del problema.
 
 #Methods Used
+
 Realizar el estudio del contenido de las quejas realizar el tratamiento con las librerias nltk y spacy para posteriormente
 clasificarlo con los modelos: 
+
 *Logistic regression
 *Decision Tree
 *Random Forest
 *Naive Bayes
 
 ##Importación de Librerias
+
 json
 numpy
 pandas
@@ -46,12 +49,15 @@ plotly
 
 
 #Download and Setup
+
 Prerequisitos
+
 Para lograr ver los resultados de este proyecto, se recomienda el uso de un Jupyter Notebook, en este caso se hizo uso de Google Colab Notebooks, los cuales vienen enlazados con una cuenta de gmail y no es necesario otro requisito para su uso.
 
 Sin embargo, puede lograrse un normal funcionamiento con una instalación de Python y el uso de cualquier herramienta de edición (en algunos casos puede requerir la instalación de algunas librerias extra).
 
 #How to Run
+
 Se puede hacer uso de este proyecto con el siguiente procedimiento:
 
 Clonar el repositorio desde GitHub
