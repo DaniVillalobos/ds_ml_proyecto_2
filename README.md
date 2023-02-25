@@ -1,6 +1,6 @@
 # Clasificacion Automatica de Tickets con NLP
 
-Integrantes
+## Integrantes
 
 Wilder Serdan (wserdan@gmail.com)
 
@@ -10,7 +10,6 @@ Ruth Daniela Villalobos (ruthdanivillalobos@gmail.com)
 
 ## Table of Contents
 
-## **Flujo de Trabajo**
 1. Setup e Importación de Librerias
 2. Cargado de datos
 3. Procesamiento de texto
@@ -21,22 +20,19 @@ Ruth Daniela Villalobos (ruthdanivillalobos@gmail.com)
 8. Training, evaluación e inferencia de modelos
 9. Conclusiones
 
-#Introduction
+## Introducción
 
 El proyecto consta de un clasificador de quejas de clientes en función de los productos/servicios. 
 Segregando estos tickets en sus categorías relevantes y por lo tanto, ayudar en la resolución rápida del problema.
 
-#Methods Used
-
-Realizar el estudio del contenido de las quejas realizar el tratamiento con las librerias nltk y spacy para posteriormente
-clasificarlo con los modelos: 
+## Métodos Usados
 
 *Logistic regression
 *Decision Tree
 *Random Forest
 *Naive Bayes
 
-##Importación de Librerias
+## mportación de Librerias
 
 json
 numpy
@@ -48,8 +44,7 @@ seaborn
 matplotlib
 plotly
 
-
-#Download and Setup
+## Download and Setup
 
 Prerequisitos
 
@@ -57,7 +52,7 @@ Para lograr ver los resultados de este proyecto, se recomienda el uso de un Jupy
 
 Sin embargo, puede lograrse un normal funcionamiento con una instalación de Python y el uso de cualquier herramienta de edición (en algunos casos puede requerir la instalación de algunas librerias extra).
 
-#How to Run
+## How to Run
 
 Se puede hacer uso de este proyecto con el siguiente procedimiento:
 
@@ -70,7 +65,7 @@ Empezar a correr los pasos propuestos.
 Copiar el contenido en un Google Colab Notebook, verificando que la base de datos tambien se encuentren ahi.
 
 
-#Most Significant Variables are:
+## Most Significant Variables are:
 
 *Logistic regression   Score=0.904
 
@@ -130,7 +125,4 @@ Tarjetas de Credito / Tarjetas Prepagadas       0.68      0.78      0.72      15
                              weighted avg       0.75      0.69      0.65      6322
 
 
-El mejor clasificador es logistic regresion debido que tiene un score de 0.904 
-adicionalmente las caracteristicas de presision son mas altas en comparacion a las 
-variaciones de los otros modelos.
 
