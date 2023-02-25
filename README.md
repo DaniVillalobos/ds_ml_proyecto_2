@@ -10,15 +10,16 @@ Ruth Daniela Villalobos (ruthdanivillalobos@gmail.com)
 
 ## Table of Contents
 
+## **Flujo de Trabajo**
 1. Setup e Importación de Librerias
-2. Data Loading
-3. Text preprocessing
-4. Exploratory Data Analysis (EDA)
-5. Feature Extraction
-6. Topic modeling 
-7. Model building using Supervised Learning
-8. Model training and evaluation
-9. Model inference
+2. Cargado de datos
+3. Procesamiento de texto
+4. Análisis Exploratorio de Datos (EDA)
+5. Extracción de características
+6. Topic modeling usando NMF
+7. Modelo supervisado para predecir cualquier queja nueva a los temas relevantes
+8. Training, evaluación e inferencia de modelos
+9. Conclusiones
 
 #Introduction
 
